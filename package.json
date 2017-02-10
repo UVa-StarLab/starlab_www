@@ -1,0 +1,31 @@
+{
+  "name": "sinanswebsite",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.13.0",
+    "compression": "^1.5.0",
+    "express": "^4.12.4",
+    "h5bp": "^0.1.4",
+    "nodemailer": "^0.7.1",
+    "path": "^0.11.14",
+    "universal-analytics": "^0.3.8"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.1.6",
+    "gulp-uglify": "^1.2.0",
+    "less": "^2.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "author": "",
+  "license": "ISC"
+}
