@@ -461,7 +461,7 @@ a {
     color: white
 }
 a:hover, a:focus {
-    color: #29C5FF;
+    color: #0D3268;
     text-decoration: none;
 }
 .texture-overlay {
@@ -532,7 +532,7 @@ Buttons
     font-size: 16px;
 }
 .use-btn:hover, .use-btn:focus {
-    background-color: #29C5FF;
+    background-color: #0D3268;
     color: #334048;
     text-decoration: none;
 }
@@ -555,8 +555,8 @@ Buttons
     font-size: 16px;
 }
 .learn-btn:hover, .message-btn:hover, .learn-btn:focus, .message-btn:focus {
-    border-color: #29C5FF;
-    color: #29C5FF;
+    border-color: #0D3268;
+    color: #0D3268;
     text-decoration: none;
 }
 .read-more-btn {
@@ -709,11 +709,11 @@ section.video a {
     color: #323a45
 }
 section.video a:hover, section.video a:focus {
-    color: #29C5FF;
+    color: #0D3268;
     text-decoration: none;
 }
 section.video a:hover i, section.video a:focus i {
-    color: #29C5FF
+    color: #0D3268
 }
 
 /* ==========================================================================
@@ -871,7 +871,7 @@ Header
 ========================================================================== */
 
 .header {
-    background: linear-gradient(rgba(30,38,46,0.2),rgba(30,38,46,0.5)),url(../img/backgrounds/showcase-bg.jpg) no-repeat center center fixed;
+    background: linear-gradient(rgba(30,38,46,0.1),rgba(30,38,46,0.3)),url(../img/backgrounds/showcase-bg.jpg) no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1067,7 +1067,7 @@ Screenshots
     color: #fff
 }
 .screenshots figcaption a:hover, .screenshots figcaption a:focus {
-    color: #29C5FF
+    color: #0D3268
 }
 .screenshots figure:hover figcaption, .screenshots figure:focus figcaption {
     opacity: 1
@@ -1123,6 +1123,7 @@ Download Now
 Footer
 ========================================================================== */
 footer {
+    background:#F59A2C;
     padding: 100px 0
 }
 footer p {
@@ -1209,7 +1210,7 @@ Nav Overlay
 }
 .overlay ul li a:hover, .overlay ul li a:focus {
     border-color: #fff;
-    color: #29c5ff;
+    color: #0D3268;
 }
 
 /* Effects */
