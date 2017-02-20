@@ -478,16 +478,14 @@ a:hover, a:focus {
 Navbar
 ========================================================================== */
 
+/* js controlled navbar color */
+
 .navbar {
     padding:15px;
 }
 
 .navbar-inverse {
-    background: #0D3268; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#0D3268, transparent); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#0D3268, transparent); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#0D3268, transparent); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#0D3268, transparent); /* Standard syntax */
+    background: #2b3c8e; /* For browsers that do not support gradients */
     border: none;    
 }
 
@@ -504,7 +502,7 @@ Navbar
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-    background-color: transparent;
+    /*background-color: transparent;*/
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -755,7 +753,7 @@ Features Slider
     position: relative;
     padding: 11% 100px 10% 100px;
     height: 400px;
-    background-color: #0D3268;
+    background-image: -webkit-linear-gradient(110deg, #d0366a 33%, #2b3c8e 33%);
 }
 .features-slider ul {
     margin: 0;
@@ -871,7 +869,8 @@ Header
 ========================================================================== */
 
 .header {
-    background: linear-gradient(rgba(30,38,46,0.1),rgba(30,38,46,0.3)),url(../img/backgrounds/showcase-bg.jpg) no-repeat center center fixed;
+    background-image: -webkit-linear-gradient(110deg, #d0366a 33%, #2b3c8e 33%);    
+    /*background: linear-gradient(rgba(30,38,46,0.1),rgba(30,38,46,0.3)),url(../img/backgrounds/showcase-bg.jpg) no-repeat center center fixed;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1123,7 +1122,8 @@ Download Now
 Footer
 ========================================================================== */
 footer {
-    background:#F59A2C;
+    /*background:#2b3c8e;*/
+    background-image: -webkit-linear-gradient(30deg, #d0366a 60%, #2b3c8e 50%);
     padding: 100px 0
 }
 footer p {
@@ -1311,10 +1311,6 @@ Waypoints
     background-image: linear-gradient(rgba(23, 37, 54, 1),rgba(23, 37, 54, 0.8), url(../img/dcmap.jpg);
     background-size: cover;
 
-}
-
-section.footer {
-    background-color: #0D3268;
 }
 
 .footer-nav {
