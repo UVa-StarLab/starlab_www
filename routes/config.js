@@ -5,10 +5,12 @@ var app = require('../server'),
   	h5bp = require('h5bp'),
 	compress = require('compression'),
 	ua = require('universal-analytics'),
-	visitor = ua('UA-41930060-1');
+	/* replace with own identifier */
+	visitor = ua('UA-XXXXXXXX-1');
 
+/* for website traffic statistics */
 visitor.pageview("/").send()
-visitor.pageview("/signup").send()
+visitor.pageview("/test").send()
 
 app.use(h5bp({ root: __dirname + '../app' }));
 // in order to serve files, you should add the two following middlewares
@@ -25,14 +27,12 @@ app.set('view engine', 'jade');
 app.get('/message', function(req, res){
   res.send('message');
 });
-app.get('/googlee5289762658fad15.html', function(req, res){
-    res.sendFile(path.join(__dirname, '../app/tmpl/googlee5289762658fad15.html'));
+/* for website ownership verification */
+app.get('/googleXXXXXXXXXXXX.html', function(req, res){
+    res.sendFile(path.join(__dirname, '../app/tmpl/googleXXXXXXXXXXXX.html'));
 });
-app.get('/signup', function(req, res){
-    res.sendFile(path.join(__dirname, '../app/tmpl/index.html'));
-});
-app.get('/sap', function(req, res) {
-    res.sendFile(path.join(__dirname, '../app/tmpl/sap/intro.html'));
+app.get('/test', function(req, res) {
+    res.sendFile(path.join(__dirname, '../app/tmpl/test.html'));
 });
 app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, '../app/tmpl/index.html'));

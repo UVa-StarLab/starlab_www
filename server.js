@@ -1,6 +1,5 @@
 var express = require('express'),
   app = module.exports = express(),
-  signups = require('./routes/signups.js'),
   config = require('./routes/config.js');
 
 var port = process.env.PORT || 3000;
