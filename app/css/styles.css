@@ -794,7 +794,7 @@ Features Slider
         position: relative;
         padding: 15% 50px 10% 50px;
         height: 380px;
-        background-color: #34495E;
+        background-color: #2b3c8e;
     }
 }
 
@@ -880,7 +880,7 @@ Header
 }
 @media(max-width: 767px) {
     .header {
-        background: linear-gradient(#34495E,#34495E) no-repeat center center fixed;
+        background: linear-gradient(#2b3c8e,#2b3c8e) no-repeat center center fixed;
         background-size: auto;
         height:100%;
     }
